@@ -1,0 +1,18 @@
+p{
+    margin: 20rem auto 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+    font-weight: 700;
+}
+
+a:hover{
+    color: rgb(176, 45, 232);
+
+}

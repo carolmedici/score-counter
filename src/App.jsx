@@ -1,5 +1,6 @@
 import './App.css'
 import BlueTeam from './assets/BlueTeam'
+import Footer from './assets/Footer'
 import RedTeam from './assets/RedTeam'
 
 
@@ -9,9 +10,12 @@ function App() {
     <>
     <h1 >Score Count</h1>
     <div className='App'>
-    <BlueTeam/>
+    <BlueTeam /> 
+    
     <RedTeam />
+
        </div>
+       <Footer />
     </>
   )
 }
