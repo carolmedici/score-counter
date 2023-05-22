@@ -4,7 +4,7 @@ const Footer = () =>{
     return(
 
         <>
-        <p>Desigh by <a href="http://github.com/carolmedici" target="_blank"> Carol Médici</a></p>
+        <p>Design by <a href="http://github.com/carolmedici" target="_blank"> Carol Médici</a></p>
         </>
     )
 }

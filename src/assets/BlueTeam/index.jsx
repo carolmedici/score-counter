@@ -9,7 +9,7 @@ function BlueTeam() {
   
   
         <div className='blueTeam'>
-          <h2 className='blue'>Blue Team: {countBlue}</h2>
+          <h2 className='blue'>BLUE TEAM: {countBlue}</h2>
               <h3>Add</h3>
             <button onClick={() => setCount((count) => count + 1)}> + 1</button>
             <button onClick={() => setCount((count) => count + 3)}> + 3</button>

@@ -8,7 +8,7 @@ function App() {
  
   return (
     <>
-    <h1 >Score Count</h1>
+    <h1 >SCORE COUNT</h1>
     <div className='App'>
     <BlueTeam /> 
     

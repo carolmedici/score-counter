@@ -1,18 +1,19 @@
 p{
     margin: 20rem auto 2rem;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 400;
+    font-family: var(--font-title);
 
 }
 
 a{
     text-decoration: none;
-    color: gray;
+    color: var(--text-color);
     font-weight: 700;
 }
 
 a:hover{
-    color: rgb(176, 45, 232);
+    color: var(--author-color);
 
 }
