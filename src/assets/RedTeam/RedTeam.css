@@ -8,3 +8,8 @@
     border-radius: 2rem;
 
 }
+
+.reset:hover{
+    color:var(--red-color);
+    cursor: pointer;
+}

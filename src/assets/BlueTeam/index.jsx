@@ -3,6 +3,10 @@ import "./BlueTeam.css"
 
 function BlueTeam() {
     const [countBlue, setCount] = useState(0)
+
+    const resetCount = () =>{
+      setCount(0)
+    }
   
     return (
     
@@ -20,6 +24,8 @@ function BlueTeam() {
             <button onClick={() => setCount((count) => count - 3)}>- 3 </button>
             <button onClick={() => setCount((count) => count - 5)}> - 5</button>
             <button onClick={() => setCount((count) => count -10 )}> -10</button>
+          <h3 className='reset' onClick={resetCount}>Reset</h3>
+            
         </div>
 
         )}
