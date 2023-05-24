@@ -1,3 +1,10 @@
 .red{
     color: var(--red-color);
 }
+
+.redTeam{
+    background-color: var(--bg-red);
+    padding: 5rem;
+    border-radius: 2rem;
+
+}
